@@ -357,7 +357,7 @@ a.navbar-brand {
     color: #212121;
     font-size: 13px;
     font-weight: 600;
-    padding: .8em 0;
+    padding: .8em .8em;
     border-bottom: 1px solid #ececef;
 }
 
@@ -406,7 +406,7 @@ a.navbar-brand {
     letter-spacing: 3px;
     font-weight: 700;
     text-transform: uppercase;
-    
+
     color: #fff;
 }
 
@@ -2413,7 +2413,7 @@ p.copyright {
     line-height: 1.8em;
     letter-spacing: 2px;
     text-align: center;
-    
+
     background: #0e0e13;
     padding: 10px 0;
 }
