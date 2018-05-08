@@ -8,7 +8,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <html lang="zxx">
 
 <head>
-	<title>Lifer a Corporate Category Bootstrap Responsive Website Template | About :: w3layouts</title>
+	<title>Nosotros | AeroEstrucuturas Colombia</title>
 	<!-- custom-theme -->
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -176,6 +176,47 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 	<!-- //banner-bottom -->
 	<!-- medile_section -->
+<!--
+<img src="images/logo-images-planes/Aercaribe.png" width="200" alt="">
+<img src="images/logo-images-planes/Aeroclub.png" width="200" alt="">
+<img src="images/logo-images-planes/Airbus.png" width="200" alt="">
+<img src="images/logo-images-planes/Avianca.png" width="200" alt="">
+<img src="images/logo-images-planes/Aviasur.png" width="200" alt="">
+<img src="images/logo-images-planes/Ciac.png" width="200" alt="">
+<img src="images/logo-images-planes/EasyFly.png" width="200" alt="">
+<img src="images/logo-images-planes/Latam.png" width="200" alt="">
+<img src="images/logo-images-planes/searca.png" width="200" alt="">
+<img src="images/logo-images-planes/ada.jpg" width="200" alt="">
+<img src="images/logo-images-planes/VivaAir.png" width="200" alt="">
+<img src="images/logo-images-planes/Central.png" width="200" alt="">
+-->
+<div class="container" style="padding-bottom:20px;padding-top:40px;">
+	<div class="wthree_head_section" style="padding-bottom:20px;">
+		<h3 class="w3l_header w3_agileits_header">Nuestros <span>Clientes</span></h3>
+		<br>
+
+		<div class="owl-carousel23 owl-theme">
+
+			<img src="images/logo-images-planes/Aercaribe.png" height="200" alt="">
+			<img src="images/logo-images-planes/Aeroclub.png" height="200" alt="">
+			<img src="images/logo-images-planes/Airbus.png" height="200" alt="">
+			<img src="images/logo-images-planes/Avianca.png" height="200" alt="">
+			<img src="images/logo-images-planes/Aviasur.png" height="200" alt="">
+			<img src="images/logo-images-planes/Ciac.png" height="200" alt="">
+			<img src="images/logo-images-planes/EasyFly.png" height="200" width="1000"alt="">
+			<img src="images/logo-images-planes/Latam.png" height="200" alt="">
+			<img src="images/logo-images-planes/searca.png" height="200" alt="">
+			<img src="images/logo-images-planes/ada.jpg" height="200" alt="">
+			<img src="images/logo-images-planes/VivaAir.png" height="200" alt="">
+			<img src="images/logo-images-planes/Central.png" height="200" alt="">
+
+
+
+
+		</div>
+	</div>
+</div>
+
 
 
 	<!-- footer -->
@@ -201,6 +242,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		$('.counter').countUp();
 	</script>
 	<!-- //stats -->
+	<script src="js/owl.carousel.js"></script>
+	<script type="text/javascript">
+	$('.owl-carousel23').owlCarousel({
+	loop:true,
+	margin:10,
+	nav:true,
+	responsive:{
+			0:{
+					items:1
+			},
+			600:{
+					items:3
+			},
+			1000:{
+					items:5
+			}
+	}
+})
+	</script>
 	<script src="js/modernizr-2.6.2.min.js"></script>
 	<!-- //nav -->
 	<!-- js for portfolio lightbox -->
@@ -221,9 +281,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				items: 1,
 				lazyLoad: false,
 				autoPlay: true,
+				autoplayTimeout: 2000,
 				navigation: false,
 				navigationText: false,
-				pagination: true,
+				pagination: false,
+				dots: false,
 			});
 		});
 	</script>
